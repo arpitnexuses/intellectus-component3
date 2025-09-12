@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { FolderOpen } from "lucide-react"
+import { FolderOpen, Check } from "lucide-react"
 
 export default function Home() {
   return (
@@ -65,27 +65,27 @@ export default function Home() {
 
               <div className="space-y-5 mb-8">
                 <div className="flex items-center gap-4">
-                  <FolderOpen className="w-5 h-5 text-[#4A90E2]" />
+                  <Check className="w-5 h-5 text-green-500" />
                   <span className="text-base">Partner-led delivery throughout</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <FolderOpen className="w-5 h-5 text-[#4A90E2]" />
+                  <Check className="w-5 h-5 text-green-500" />
                   <span className="text-base">Boutique flexibility and speed</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <FolderOpen className="w-5 h-5 text-[#4A90E2]" />
+                  <Check className="w-5 h-5 text-green-500" />
                   <span className="text-base">Strategy tailored to founders</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <FolderOpen className="w-5 h-5 text-[#4A90E2]" />
+                  <Check className="w-5 h-5 text-green-500" />
                   <span className="text-base">Sector-specialist insight</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <FolderOpen className="w-5 h-5 text-[#4A90E2]" />
+                  <Check className="w-5 h-5 text-green-500" />
                   <span className="text-base">Success-aligned fees</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <FolderOpen className="w-5 h-5 text-[#4A90E2]" />
+                  <Check className="w-5 h-5 text-green-500" />
                   <span className="text-base">Global reach, local focus</span>
                 </div>
               </div>
