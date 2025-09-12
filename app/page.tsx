@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { FolderOpen } from "lucide-react"
@@ -89,7 +91,10 @@ export default function Home() {
               </div>
 
               <div className="mt-auto">
-                <Button className="bg-[#2A9FD6] hover:bg-[#1E8BC3] text-white px-8 py-4 rounded-full font-medium w-fit text-base">
+                <Button 
+                  className="bg-[#2A9FD6] hover:bg-[#1E8BC3] text-white px-8 py-4 rounded-full font-medium w-fit text-base"
+                  onClick={() => window.open('https://intellectuscapital.com.au/contact-us/', '_blank')}
+                >
                   Get Started
                 </Button>
               </div>
