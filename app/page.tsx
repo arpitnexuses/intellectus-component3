@@ -15,9 +15,9 @@ export default function Home() {
 
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-0 items-start justify-center">
             {/* Traditional Model Card - Smaller */}
-            <Card className="bg-gradient-to-b from-[#4A7A9A] to-[#5BA3E8] border-[#6BB0F0]/40 p-8 sm:p-10 w-full lg:w-96 text-white mt-0 lg:mt-8 rounded-lg lg:rounded-l-none">
-              <h2 className="text-xl sm:text-2xl font-semibold mb-3">Traditional MD-VP Model</h2>
-              <p className="text-base text-white/80 mb-8">
+            <Card className="bg-gradient-to-b from-[#4A7A9A] to-[#5BA3E8] border-[#6BB0F0]/40 p-10 sm:p-12 w-full lg:w-[26rem] text-white mt-0 lg:mt-8 rounded-lg lg:rounded-l-none hover:shadow-2xl hover:shadow-blue-500/20 hover:scale-105 transition-all duration-300 ease-in-out">
+              <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Traditional MD-VP Model</h2>
+              <p className="text-lg text-white/80 mb-8">
                 Structured for scale with
                 <br />
                 established corporate processes
@@ -25,7 +25,7 @@ export default function Home() {
                 and frameworks.
               </p>
 
-              <div className="space-y-5">
+              <div className="space-y-5 pb-5">
                 <div className="flex items-center gap-4">
                   <FolderOpen className="w-5 h-5 text-white/70" />
                   <span className="text-base">Multiple management layers</span>
@@ -54,45 +54,45 @@ export default function Home() {
             </Card>
 
             {/* Our Model Card - Larger */}
-            <Card className="bg-[#1E3A5F] border-[#2A4A6B] p-8 sm:p-10 w-full lg:w-[28rem] text-white relative flex flex-col">
-              <div className="flex items-center mb-3">
-                <h2 className="text-xl sm:text-2xl font-semibold">Our Model</h2>
-                <Button className="bg-[#20B2AA] hover:bg-[#1A9B94] text-white px-4 py-2 rounded text-sm font-medium uppercase h-8 ml-4">
+            <Card className="bg-[#1E3A5F] border-[#2A4A6B] p-10 sm:p-12 w-full lg:w-[32rem] text-white relative flex flex-col hover:shadow-2xl hover:shadow-blue-500/20 hover:scale-105 transition-all duration-300 ease-in-out">
+              <div className="flex items-center mb-4">
+                <h2 className="text-2xl sm:text-3xl font-semibold">Our Model</h2>
+                <Button className="bg-[#20B2AA] hover:bg-[#1A9B94] text-white px-5 py-2.5 rounded text-sm font-medium uppercase h-9 ml-5">
                   INTELLECTUS CAPITAL
                 </Button>
               </div>
-              <p className="text-base text-white/80 mb-8">Built for agility, precision, and client-first outcomes.</p>
+              <p className="text-lg text-white/80 mb-10">Built for agility, precision, and client-first outcomes.</p>
 
-              <div className="space-y-5 mb-8">
-                <div className="flex items-center gap-4">
-                  <Check className="w-5 h-5 text-green-500" />
-                  <span className="text-base">Partner-led delivery throughout</span>
+              <div className="space-y-6 mb-10">
+                <div className="flex items-center gap-5">
+                  <Check className="w-6 h-6 text-green-500" />
+                  <span className="text-lg">Partner-led delivery throughout</span>
                 </div>
-                <div className="flex items-center gap-4">
-                  <Check className="w-5 h-5 text-green-500" />
-                  <span className="text-base">Boutique flexibility and speed</span>
+                <div className="flex items-center gap-5">
+                  <Check className="w-6 h-6 text-green-500" />
+                  <span className="text-lg">Boutique flexibility and speed</span>
                 </div>
-                <div className="flex items-center gap-4">
-                  <Check className="w-5 h-5 text-green-500" />
-                  <span className="text-base">Strategy tailored to founders</span>
+                <div className="flex items-center gap-5">
+                  <Check className="w-6 h-6 text-green-500" />
+                  <span className="text-lg">Strategy tailored to founders</span>
                 </div>
-                <div className="flex items-center gap-4">
-                  <Check className="w-5 h-5 text-green-500" />
-                  <span className="text-base">Sector-specialist insight</span>
+                <div className="flex items-center gap-5">
+                  <Check className="w-6 h-6 text-green-500" />
+                  <span className="text-lg">Sector-specialist insight</span>
                 </div>
-                <div className="flex items-center gap-4">
-                  <Check className="w-5 h-5 text-green-500" />
-                  <span className="text-base">Success-aligned fees</span>
+                <div className="flex items-center gap-5">
+                  <Check className="w-6 h-6 text-green-500" />
+                  <span className="text-lg">Success-aligned fees</span>
                 </div>
-                <div className="flex items-center gap-4">
-                  <Check className="w-5 h-5 text-green-500" />
-                  <span className="text-base">Global reach, local focus</span>
+                <div className="flex items-center gap-5">
+                  <Check className="w-6 h-6 text-green-500" />
+                  <span className="text-lg">Global reach, local focus</span>
                 </div>
               </div>
 
               <div className="mt-auto">
                 <Button 
-                  className="bg-[#2A9FD6] hover:bg-[#1E8BC3] text-white px-8 py-4 rounded-full font-medium w-fit text-base"
+                  className="bg-[#2A9FD6] hover:bg-[#1E8BC3] text-white px-10 py-5 rounded-full font-medium w-fit text-lg"
                   onClick={() => window.open('https://intellectuscapital.com.au/contact-us/', '_blank')}
                 >
                   Get Started
