@@ -6,7 +6,7 @@ import { FolderOpen, Check } from "lucide-react"
 
 export default function Home() {
   return (
-    <div className="fixed inset-0 bg-gradient-to-b from-[#074D70] to-[#0E93D6] overflow-auto">
+    <div className="fixed inset-0 bg-gradient-to-b from-[#074D70] to-[#0E93D6] overflow-auto pt-[15px]">
       <div className="min-h-screen p-6 sm:p-12">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-semibold text-center mb-12 sm:mb-16">
