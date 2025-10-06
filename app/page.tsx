@@ -15,7 +15,7 @@ export default function Home() {
 
           <div className="flex flex-col lg:flex-row gap-2 lg:gap-0 items-stretch lg:items-start justify-center flex-1 lg:flex-1">
             {/* Traditional Model Card - Smaller */}
-            <Card className="bg-gradient-to-b from-[#4A7A9A] to-[#5BA3E8] border-[#6BB0F0]/40 px-3 py-3 sm:px-6 sm:pt-6 sm:pb-4 w-full lg:w-[26rem] text-white mt-0 lg:mt-4 rounded-lg lg:rounded-l-none lg:hover:shadow-2xl lg:hover:shadow-blue-500/20 lg:hover:scale-105 transition-all duration-300 ease-in-out">
+            <Card className="bg-gradient-to-b from-[#4A7A9A] to-[#5BA3E8] border-[#6BB0F0]/40 px-3 py-3 sm:px-6 sm:pt-6 sm:pb-4 w-full lg:w-[26rem] lg:h-[420px] text-white mt-0 lg:mt-4 rounded-lg lg:rounded-l-none lg:hover:shadow-2xl lg:hover:shadow-blue-500/20 lg:hover:scale-105 transition-all duration-300 ease-in-out">
               <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold mb-2 sm:mb-3">Traditional MD-VP Model</h2>
               <p className="text-sm sm:text-base text-white/80 mb-3 sm:mb-4">
                 Structured for scale with
@@ -54,7 +54,7 @@ export default function Home() {
             </Card>
 
             {/* Our Model Card - Larger */}
-            <Card className="bg-[#1E3A5F] border-[#2A4A6B] px-3 py-3 sm:p-6 w-full lg:w-[32rem] text-white relative flex flex-col lg:hover:shadow-2xl lg:hover:shadow-blue-500/20 lg:hover:scale-105 transition-all duration-300 ease-in-out">
+            <Card className="bg-[#1E3A5F] border-[#2A4A6B] px-3 py-3 sm:p-6 w-full lg:w-[28rem] lg:h-[450px] text-white relative flex flex-col lg:hover:shadow-2xl lg:hover:shadow-blue-500/20 lg:hover:scale-105 transition-all duration-300 ease-in-out">
               <div className="flex items-center mb-2 sm:mb-3">
                 <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold">Our Model</h2>
                 <Button className="bg-[#20B2AA] hover:bg-[#1A9B94] text-white px-2 py-1 rounded text-xs font-medium uppercase h-6 sm:h-7 ml-2 sm:ml-3">
